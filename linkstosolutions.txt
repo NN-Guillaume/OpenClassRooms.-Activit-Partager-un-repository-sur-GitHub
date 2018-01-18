@@ -1,0 +1,25 @@
+Voici le premier document joint avec README / Here is the first document who is enclosed with README
+
+voici des liens web qui permettent de répondre à "Comment puis-je modifier l'extension d'un fichier sur Git Bash ?".
+Here are some links where you can answer at "How can I change a file extension on Git Bash ?".
+
+
+pour un fichier 
+for one file
+
+azaleasays.com/2014/03/06/replace-file-extension-in-git-repository/
+
+
+pour tous les fichiers avec la même extension
+for every files with the same extension
+
+
+https://stackoverflow.com/questions/1224766/how-do-i-rename-the-extension-for-a-batch-of-files/
+
+
+https://www.samanthamiller.co.uk/2015/04/changing-file-extensions-in-bulk-using-git-bash/
+
+
+
+
+
