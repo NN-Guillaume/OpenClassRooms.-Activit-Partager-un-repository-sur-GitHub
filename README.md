@@ -22,3 +22,8 @@ COMMIT N°1
 
 COMMIT N°2
 
+3ème étape: Un tutoriel sur le changement d'extension à été créé. C'est aussi un fichier ".txt" nommé "change_a_file_extension_tutorial".
+3rd step: A tutorial have been created. It's a ".txt" file too, named "change_a_file_extension_tutorial".
+
+COMMIT N°3
+

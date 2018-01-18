@@ -1,0 +1,52 @@
+TUTORIEL: Comment changer l'extension d'un fichier.
+TUTORIAL: How to change a file's extension.
+
+
+Pour UN fichier.
+For ONE file.
+
+
+
+exemple: convertir un fichier ".md" en ".markdown".
+exemple: convert a file ".md" in ".markdown".
+
+
+
+
+oldext=".md"
+newext=".markdown"
+
+for file in $(git ls-files | grep ${oldext}\$); do
+    echo processing $file...
+    filename="${file%.*}"
+    git mv $file ${filename}$newext
+done
+
+
+
+
+
+
+
+
+
+
+
+Pour TOUS les fichiers d'une même extension:
+For EVERY files with the same extension:
+
+
+exemple: convertir tous les ".php" en ".html".
+exemple: convert all the ".php" in "html".
+
+
+
+
+find . -name '*.php' -exec sh -c 'mv "$0" "${0%.php}.html"' {} \;
+
+
+
+
+
+En espérant avoir aidé un peu     ;)
+I hope I've helped a little bit 
